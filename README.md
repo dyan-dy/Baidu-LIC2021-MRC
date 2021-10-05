@@ -10,4 +10,6 @@ models and codes for baiduAI LIC 2021 MRC tasks, based on paddlenlp
 
 
 # Test1 Result
-
+| Rank | F1 |	EM	| in-domain(F1)	| checklist(F1)	| vocab(F1)	| phrase(F1)	| semantic-role(F1)	| fault-tolerant(F1) |	reasoning(F1) | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+| 85 | 58.89	| 48.774 | 66.659 |	52.6436	| 53.195	| 61.625	| 55.01 | 44.996	| 48.392 |
