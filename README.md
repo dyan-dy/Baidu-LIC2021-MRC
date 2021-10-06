@@ -1,6 +1,16 @@
 # Baidu-LIC2021-MRC
 models and codes for baiduAI LIC 2021 MRC tasks, based on paddlenlp
 
+# usage
+Modified the [baseline](https://github.com/PaddlePaddle/Research/tree/master/NLP/DuReader-Checklist-BASELINE) from paddlenlp.
+
+Due to the poor push speed and the limitation of fold volume, dataset and model .pdparams are not pushed.
+
+`download.sh` , downloading the dataset.
+`train.sh`, train the model.
+`run_eval.sh`, evaluation for the dev dataset.
+`prediction.sh`, generate the demanding result.
+
 # Final Result
 | Rank | F1 |	EM	| in-domain(F1)	| checklist(F1)	| vocab(F1)	| phrase(F1)	| semantic-role(F1)	| fault-tolerant(F1) |	reasoning(F1) | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |  
@@ -14,3 +24,4 @@ models and codes for baiduAI LIC 2021 MRC tasks, based on paddlenlp
 
 # Pretrained model with different weights' performance(F1) based on "[checklist](https://aclanthology.org/2020.acl-main.442.pdf)" and [baseline](https://github.com/PaddlePaddle/Research/tree/master/NLP/DuReader-Checklist-BASELINE)
 ![image](https://user-images.githubusercontent.com/53289454/136005024-df48577f-6fed-4af5-a6a7-e93168bc5aff.png)
+
